@@ -8,7 +8,7 @@ version = "0.0.1"
 authors = [
     { name = "Lars Kühmichel", email = "larskuedev@gmail.com" },
 ]
-description = "A collection of deep learning architectures, written in pure JAX."
+description = "A collection of deep learning architectures, written in jax and flax."
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -18,7 +18,8 @@ classifiers = [
 ]
 
 dependencies = [
-    "jax >= 0.5",
+    "flax ~= 0.10",
+    "jax ~= 0.5",
 ]
 
 [project.optional-dependencies]
